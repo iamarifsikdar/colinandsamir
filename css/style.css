@@ -223,6 +223,7 @@ svg {
 }
 
 .container {
+    overflow: hidden;
     --MAX-WIDTH: 1200px;
     --PADDING: 1rem;
 
@@ -545,6 +546,9 @@ input:focus {
 /*
     =Footer
 */
+.footer__container {
+    overflow: visible;
+}
 .social li {
     background-color: var(--CLR-NEUTRAL);
     color: var(--CLR-PRIMARY-400);
