@@ -335,8 +335,13 @@ a {
     height: 100svh;
     background-image: url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
+}
+
+@media (min-width: 50em) {
+    .hero {
+        background-attachment: fixed;
+    }
 }
 
 .hero__h1 {
@@ -455,7 +460,6 @@ a {
     height: 100svh;
     background-image: url("../images/creator-startup.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
 }
 
