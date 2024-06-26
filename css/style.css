@@ -250,9 +250,7 @@ svg {
 /*
     =General Style
 */
-html {
-    overflow-x: hidden;
-}
+
 body {
     font-family: var(--FF-BODY);
     font-size: var(--FS-BODY);
@@ -348,7 +346,6 @@ a {
 */
 
 .hero {
-    overflow-x: hidden;
     position: relative;
     height: 100svh;
 }
@@ -467,7 +464,6 @@ a {
     =Creator Startup
 */
 .creator-startup {
-    overflow-x: hidden;
     position: relative;
     height: 100svh;
 }
@@ -495,7 +491,6 @@ a {
     background-image: none;
     background-color: black;
     position: relative;
-    overflow: hidden;
 }
 
 .links-box:nth-child(2)::before {
@@ -559,9 +554,7 @@ input:focus {
 /*
     =Footer
 */
-.footer__container {
-    overflow: visible;
-}
+
 .social li {
     background-color: var(--CLR-NEUTRAL);
     color: var(--CLR-PRIMARY-400);
@@ -589,14 +582,16 @@ input:focus {
 }
 
 .footer__logo {
+    overflow: hidden;
     clear: both;
     position: relative;
     width: 100%;
 }
 
 .footer__logo img {
+    overflow: hidden;
     background-color: var(--CLR-PRIMARY-400);
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 102vw;
